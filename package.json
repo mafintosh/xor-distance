@@ -1,0 +1,23 @@
+{
+  "name": "xor-distance",
+  "version": "0.0.0",
+  "description": "Calculate the distance between two buffers as a new buffer and compare computed distances with eachother",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.0"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/xor-distance.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/xor-distance/issues"
+  },
+  "homepage": "https://github.com/mafintosh/xor-distance"
+}
