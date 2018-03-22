@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Calculate the distance between two buffers as a new buffer and compare computed distances with eachother",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "buffer-alloc": "^1.1.0"
+  },
   "devDependencies": {
+    "buffer-from": "^1.0.0",
     "tape": "^4.2.0"
   },
   "scripts": {
