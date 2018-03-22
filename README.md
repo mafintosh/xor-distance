@@ -13,8 +13,8 @@ npm install xor-distance
 ``` js
 var distance = require('./')
 
-var dist1 = distance(new Buffer('foo'), new Buffer('bar'))
-var dist2 = distance(new Buffer('foo'), new Buffer('baz'))
+var dist1 = distance(Buffer.from('foo'), Buffer.from('bar'))
+var dist2 = distance(Buffer.from('foo'), Buffer.from('baz'))
 
 // the following returns true since the distance between foo and bar
 // is greater than the distance between foo and baz
