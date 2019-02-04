@@ -2,7 +2,7 @@ module.exports = dist
 
 function dist (a, b) {
   if (a.length !== b.length) throw new Error('Inputs should have the same length')
-  var result = new Buffer(a.length)
+  var result = Buffer.allocUnsafe(a.length)
   for (var i = 0; i < a.length; i++) result[i] = a[i] ^ b[i]
   return result
 }
