@@ -1,6 +1,6 @@
 {
   "name": "xor-distance",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Calculate the distance between two buffers as a new buffer and compare computed distances with eachother",
   "main": "index.js",
   "dependencies": {},
