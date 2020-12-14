@@ -1,3 +1,5 @@
+const { Buffer } = require('buffer')
+
 module.exports = dist
 
 function dist (a, b) {
